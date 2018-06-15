@@ -1,0 +1,349 @@
+// Importe der Bootstrap und Font-Awesome Less-Files
+@import "vendors/bootstrap/bootstrap.less";
+@import "vendors/font-awesome/font-awesome.less";
+
+// Variablen für Farben
+@lyfes-gruen: rgb(170, 195, 15);
+@lyfes-blau: rgb(20, 145, 160);
+@lyfes-orange: rgb(240, 140, 0);
+@lyfes-black: rgb(60, 60, 65);
+@lyfes-hellgrau: rgb(248, 248, 248);
+@lyfes-grau: #7e7e7e;
+////////////////////////
+
+// Texte
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Nunito',Helvetica,Arial,sans-serif;
+	letter-spacing: 1.5px;
+}
+
+p {
+  font-family: 'Nunito',Helvetica,Arial,sans-serif;
+}
+
+a {
+  font-family: 'Nunito',Helvetica,Arial,sans-serif;
+}
+////////////////////////
+
+// Allgemeines
+body {
+  margin: auto;
+  border-top: 4px solid @lyfes-orange;
+}
+
+h1 {
+  font-family: 'Nunito'
+}
+
+.head {
+  margin-top: 1%;
+}
+////////////////////////
+
+// Navigation
+.navbar {
+  margin-bottom: 0%;
+  border-radius: 0;
+  height:250px;
+  font-size: 1.5em;
+}
+
+.navbar a{
+  color: @lyfes-black;
+}
+
+.navbar a:hover{
+  color: @lyfes-blau;
+  border-bottom-color: @lyfes-blau;
+}
+
+@media (max-width:992px) {
+  .navbar {
+    font-size: 1em;
+  }
+}
+
+.navbar-nav {
+  margin-top: 7%;
+}
+////////////////////////
+
+// Slider
+.slider {
+  margin-bottom: 26px;
+}
+
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+  /* Hide the carousel text when the screen is less than 600 pixels wide */
+  @media (max-width: 600px) {
+    .carousel-caption {
+      display: none;
+    }
+  }
+////////////////////////
+
+// Testimonial
+.testimonial{
+  background-color: @lyfes-blau;
+  height: auto;
+	color: white;
+	padding: 5%;
+	margin-bottom: 26px;
+}
+
+.testimonial-header {
+	text-align: center;
+	font-size: 3.5em;
+	line-height: 1.3;
+	margin-bottom: 5%;
+}
+
+.testimonial-text {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: 2;
+	margin-bottom: 5%;
+}
+
+.btn-center{
+		text-align: center;
+}
+
+.btn-orange {
+	background-color: @lyfes-orange;
+	border: none;
+}
+
+.btn-orange:hover{
+	background-color: @lyfes-gruen;
+}
+////////////////////////
+
+// Highlight part
+.highlight-part {
+  background-color: @lyfes-hellgrau;
+  color: @lyfes-black;
+	margin-bottom: 26px;
+	padding-bottom: 2%;
+}
+
+.icon-center {
+	text-align: center;
+	margin-top: 6%;
+}
+
+.highlight-header{
+	text-align: center;
+	margin-top: 8%;
+	margin-bottom: 5%;
+}
+
+.highlight-text{
+	font-size: 1.1em;
+	line-height: 1.8;
+}
+////////////////////////
+
+// Contact start
+.contact-start {
+	font-family: 'Nunito',Helvetica,Arial,sans-serif;
+  background-color: @lyfes-hellgrau;
+  color: @lyfes-black;
+	height: auto;
+	margin-bottom: 26px;
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+
+.contact-header {
+	color: @lyfes-blau;
+	font-size: 2em;
+	margin-bottom: 5%;
+}
+
+.contact-header-small{
+	font-size: 1.5em;
+	color: @lyfes-grau;
+	line-height: 1.5;
+}
+
+.contact-button {
+	background-color: @lyfes-orange !important;
+	border: none;
+}
+
+.contact-button:hover{
+	background-color: @lyfes-gruen !important;
+}
+////////////////////////
+
+// Newsletter
+.newsletter {
+	font-family: 'Nunito',Helvetica,Arial,sans-serif;
+  background-color: @lyfes-hellgrau;
+  color: @lyfes-black;
+	height: auto;
+	margin-bottom: 26px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.newsletter-sub-head{
+	text-align: center;
+	color: @lyfes-grau;
+}
+
+.newsletter-main-head{
+	text-align: center;
+}
+
+.newsletter-button {
+	background-color: @lyfes-orange !important;
+	border: none;
+}
+
+.newsletter-button:hover{
+	background-color: @lyfes-gruen !important;
+}
+
+///////////////////////
+
+// Footer
+footer {
+	margin-top: 20px;
+	font-family: 'Nunito',Helvetica,Arial,sans-serif;
+}
+
+.footer-header{
+	font-size: 1.8em;
+}
+
+.footer-text{
+	font-size: 1.2em;
+	line-height: 1.8em;
+	color: @lyfes-grau;
+}
+///////////////////////
+
+// Footerline
+.footline {
+	background-color: @lyfes-blau;
+	height: 2px;
+}
+///////////////////////
+
+// Footerline
+.footline {
+	background-color: @lyfes-blau;
+	height: 1px;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+///////////////////////
+
+// Subfooter
+.lyfesspecial {
+	color: @lyfes-orange
+}
+
+.subfooter{
+	margin-bottom: 10%;
+}
+
+.sub-right{
+	float: right;
+	text-align: right;
+}
+
+// About section
+.testimonial-text-about {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: 2;
+}
+
+.about-part {
+	background: linear-gradient(
+                     rgba(20,20,20, .5),
+                     rgba(20,20,20, .5)),
+                     url(../../typo3conf/ext/lyfes_template/Resources/Public/img/about.jpg);
+	background-size: cover;
+	opacity: 0.8;
+	background-color: white;
+	height: auto;
+	margin-bottom: 2%;
+	padding: 5%;
+}
+
+
+
+.about-part-header {
+	text-align: center;
+	font-size: 3em;
+	margin-bottom: 5%;
+	color: white;
+}
+
+.about-part-text {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 300;
+	line-height: 2;
+	margin-bottom: 5%;
+	color:white;
+}
+///////////////////////
+
+
+// leistungen
+.testimonial-leistungen{
+  background-color: @lyfes-blau;
+  height: auto;
+	color: white;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	line-height: 1.8;
+}
+
+.grey-fluid{
+	background-color:@lyfes-hellgrau;
+}
+
+.leistungen-first {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.leistungen-second {
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+
+.leistungen-third {
+	padding-top: 2%;
+	padding-bottom: 2%;
+
+}
+
+.leistungen-header{
+	font-size: 2.2em;
+	margin-top: 0px !important;
+}
+
+.leistungen-text{
+	line-height: 1.8;
+	font-size: 1.1em;
+}

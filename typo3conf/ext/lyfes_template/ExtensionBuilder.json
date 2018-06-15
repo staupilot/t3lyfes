@@ -1,0 +1,39 @@
+{
+    "modules": [],
+    "properties": {
+        "backendModules": [],
+        "description": "Template Extension f\u00fcr lyfes Website",
+        "emConf": {
+            "category": "templates",
+            "custom_category": "",
+            "dependsOn": "typo3 => 8.7.0-8.7.99\n",
+            "disableLocalization": false,
+            "disableVersioning": false,
+            "skipGenerateDocumentationTemplate": false,
+            "sourceLanguage": "en",
+            "state": "alpha",
+            "targetVersion": "8.7.0-8.7.99",
+            "version": "1.0.0"
+        },
+        "extensionKey": "lyfes_template",
+        "name": "lyfes Template",
+        "originalExtensionKey": "",
+        "originalVendorName": "",
+        "persons": [
+            {
+                "company": "",
+                "email": "jens.friederich@googlemail.com",
+                "name": "JFR",
+                "role": "Developer"
+            }
+        ],
+        "plugins": [],
+        "vendorName": "JFR"
+    },
+    "wires": [],
+    "log": {
+        "last_modified": "2018-05-31 01:12",
+        "extension_builder_version": "8.7.0",
+        "be_user": " (1)"
+    }
+}

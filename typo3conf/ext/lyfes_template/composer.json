@@ -1,0 +1,23 @@
+{
+    "name": "jfr/lyfes-template",
+    "type": "typo3-cms-extension",
+    "description": "Template Extension f\u00fcr lyfes Website",
+    "authors": [],
+    "require": {
+        "typo3/cms-core": "^8.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "JFR\\LyfesTemplate\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "JFR\\LyfesTemplate\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "lyfes_template": "self.version",
+        "typo3-ter/lyfes-template": "self.version"
+    }
+}
