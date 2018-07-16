@@ -1,0 +1,171 @@
+mod.web_layout.BackendLayouts {
+  startseite {
+    title = Startseite
+    icon = EXT:lyfes_template/Resources/Public/Icons/BackendLayouts/jumbotron.gif
+    config {
+      backend_layout {
+        colCount = 3
+        rowCount = 5
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Jumbotron
+                colspan = 3
+                colPos = 4
+              }
+            }
+          }
+          2 {
+            columns {
+              1 {
+                name = Main-Content
+                colspan = 3
+                colPos = 0
+              }
+            }
+          }
+          3 {
+            columns {
+              1 {
+                name = Testimonial-Links
+                colPos = 1
+              }
+              2 {
+                name = Testimonial-Mitte
+                colPos = 3
+              }
+              3 {
+                name = Testimonial-Rechts
+                colPos = 2
+              }
+            }
+          }
+          4 {
+            columns {
+              1 {
+                name = Newsletter-Links
+                colspan = 2
+                colPos = 5
+              }
+              2 {
+                name = Newsletter-Rechts
+                colPos = 6
+              }
+            }
+          }
+          5 {
+            columns {
+              1 {
+                name = Footer-Links
+                colPos = 7
+              }
+              2 {
+                name = Footer-Mitte
+                colPos = 8
+              }
+              3 {
+                name = Footer-Rechts
+                colPos = 9
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+mod.web_layout.BackendLayouts {
+  ueber-uns {
+    title = Ueber-Uns
+    icon = EXT:lyfes_template/Resources/Public/Icons/BackendLayouts/2spalten.gif
+    config {
+      backend_layout {
+        colCount = 4
+        rowCount = 6
+        rows {
+          1 {
+            columns {
+              1 {
+                name = Hero-Intro
+                colspan = 4
+                colPos = 0
+              }
+            }
+          }
+          2 {
+            columns {
+              1 {
+                name = Intro-ImageText
+                colspan = 4
+                colPos = 1
+              }
+            }
+          }
+          3 {
+            columns {
+              1 {
+                name = Main-Content
+                colspan = 4
+                colPos = 2
+              }
+            }
+          }
+          4 {
+            columns {
+              1 {
+                name = Person1
+                colspan = 2
+                colPos = 3
+              }
+              2 {
+                name = Person2
+                colspan = 2
+                colPos = 4
+              }
+            }
+          }
+          5 {
+            columns {
+              1 {
+                name = Newsletter-Links
+                colspan = 2
+                colPos = 5
+              }
+              2 {
+                name = Newsletter-Rechts
+                colspan = 2
+                colPos = 6
+              }
+            }
+          }
+          6 {
+            columns {
+              1 {
+                name = Footer-Links
+                colPos = 7
+              }
+              2 {
+                name = Footer-Links-Mitte
+                colPos = 8
+              }
+              3 {
+                name = Footer-Rechts-Mitte
+                colPos = 9
+              }
+              4 {
+                name = Footer-Rechts
+                colPos = 10
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+Inaktiv:
+
+Beschreibung

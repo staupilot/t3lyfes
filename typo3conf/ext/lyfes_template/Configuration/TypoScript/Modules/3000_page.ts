@@ -28,12 +28,12 @@ page.includeCSS {
 }
 
 // JS Einbinden
-page.includeJSFooterlibs
-{
+page.includeJSFooterlibs {
     10 = https://code.jquery.com/jquery-3.3.1.min.js
     10.external = 1
     10.disableCompression = 1
 }
+
 page.includeJSFooter {
     20 = EXT:lyfes_template/Resources/Public/js/bootstrap.js
     20.disbaleCompression = 1
@@ -41,8 +41,6 @@ page.includeJSFooter {
     30 = EXT:lyfes_template/Resources/Public/js/main.js
     30.disableCompression = 1
     }
-
-}
 
 //Beginn Fluid Template
 page.10 = FLUIDTEMPLATE
