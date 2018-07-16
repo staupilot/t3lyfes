@@ -14,10 +14,13 @@
     </nav>
 
 <!-- Hier die Inhalte -->
-<f:render section="Slider"/>
-<f:render section="Testimonial"/>
-<f:render section="Highlights"/>
-<f:render partial="Contact"/>
+<f:if condition="{backendlayout}=='startseite'">
+    <f:render section="Slider"/>
+    <f:render section="Testimonial"/>
+    <f:render section="Highlights"/>
+    <f:render partial="Contact"/>
+</f:if>
+
 
 <!-- Beginn Footer -->
 <f:render partial="Footer"/>

@@ -50,4 +50,22 @@ page.10 {
 
     file = EXT:lyfes_template/Resources/Private/Templates/Default.html
 
+    // Abfrage und ansprechen der Backendlyouts
+    variables {
+
+        backendlayout = CASE
+        backendlayout {
+            key.data = pagelayout
+
+            pagets__startseite = TEXT
+            pagets__startseite.value = startseite
+
+            pagets__ueber-uns = TEXT
+            pagets__ueber-uns.value = ueber-uns
+
+        default < .pagets__2spalten
+        }
+
+    }
+
 }

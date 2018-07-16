@@ -1,7 +1,7 @@
 mod.web_layout.BackendLayouts {
   startseite {
     title = Startseite
-    icon = EXT:lyfes_template/Resources/Public/Icons/BackendLayouts/jumbotron.gif
+    icon = EXT:lyfes_template/Resources/Public/Icons/BackendLayouts/jumbotron.png
     config {
       backend_layout {
         colCount = 3
@@ -79,7 +79,7 @@ mod.web_layout.BackendLayouts {
 mod.web_layout.BackendLayouts {
   ueber-uns {
     title = Ueber-Uns
-    icon = EXT:lyfes_template/Resources/Public/Icons/BackendLayouts/2spalten.gif
+    icon = EXT:lyfes_template/Resources/Public/Icons/BackendLayouts/2spalten.png
     config {
       backend_layout {
         colCount = 4
