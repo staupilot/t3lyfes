@@ -7,9 +7,8 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="../typo3conf/ext/lyfes_template/Resources/Public/img/lyfes-logo_small.png" alt="Lyfes Logo"/></a>
             </div>
-            <f:render partial="MainNavigation"/>
+            <f:render partial="MainNavigation" arguments="{_all}"/>
         </div>
     </nav>
 
@@ -18,6 +17,15 @@
     <f:render section="Slider"/>
     <f:render section="Testimonial"/>
     <f:render section="Highlights"/>
+    <f:render partial="Contact" arguments="{_all}"/>
+</f:if>
+
+<f:if condition="{backendlayout}=='ueber-uns'">
+    <f:render section="Testimonial"/>
+    <f:render section="Testimonial"/>
+    <f:render section="Testimonial"/>
+    <f:render section="Persons"/>
+    <f:render section="HR"/>
     <f:render partial="Contact"/>
 </f:if>
 
