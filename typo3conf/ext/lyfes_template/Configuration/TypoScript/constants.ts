@@ -1,2 +1,2 @@
-rootId = 0
-siteTitle = Meine erste Typo3 Seite
+rootId = 1
+siteTitle = lyfes - gesund, leben, lernen

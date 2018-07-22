@@ -1,12 +1,9 @@
+
+<f:comment>
 {siteTitle -> f:format.raw()}
+</f:comment>
 
 <div class="collapse navbar-collapse" id="myNavbar">
-    <ul class="nav navbar-nav pull-right">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Über uns</a></li>
-        <li><a href="#">Leistungen</a></li>
-        <li><a href="#">Kurse</a></li>
-        <li><a href="#">Partner</a></li>
-        <li><a href="#">Kontakt</a></li>
-    </ul>
+    <f:cObject typoscriptObjectPath="lib.logo"/>
+    <f:cObject typoscriptObjectPath="lib.mainnav"/>
 </div>

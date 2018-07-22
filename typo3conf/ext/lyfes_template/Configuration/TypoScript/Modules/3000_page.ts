@@ -94,6 +94,7 @@ page.10 {
             default < .pagets__2spalten
         }
 
+        // Link zur Startseite bei Klick auf Logo/Text
         siteTitle = TEXT
         siteTitle {
             value = {$siteTitle}
